@@ -1,0 +1,20 @@
+{
+  "name": "skill-hub",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ashutosh",
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mssql": "^11.0.1"
+  }
+}

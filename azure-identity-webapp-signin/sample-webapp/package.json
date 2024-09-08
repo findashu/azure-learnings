@@ -1,0 +1,24 @@
+{
+  "name": "sso-webapp",
+  "version": "1.0.0",
+  "description": "Setting up SSO authentication with Azure Identity",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules index.js"
+  },
+  "author": "ashutosh",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.13.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
